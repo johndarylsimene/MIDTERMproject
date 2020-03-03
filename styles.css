@@ -7,7 +7,7 @@ body {
 
 .container{
     width: 80%;
-    margin: auto;
+    margin: auto;a
     overflow: hidden;
 }
 
@@ -33,6 +33,7 @@ header li{
     display: inline;
     padding: 7px 7px 7px 7px;
 }
+
 
 header nav{
     float: right;
