@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>NEMESIS</title>
+    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
 <body>
@@ -12,7 +13,7 @@
         <!------------------------NAV BAR-->
         <nav class="navbar navbar-expand-lg navbar-light">
             <a class="navbar-brand" href="#">
-                <img src="goldnemesis.png" width="140" height="30" class="d-inline-block align-top" alt=""> 
+                <img src="img/goldnemesis.png" width="140" height="30" class="d-inline-block align-top" alt=""> 
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -23,7 +24,7 @@
                   <a class="nav-link" href="#home">HOME</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#about">ABOUT</a>
+                  <a class="nav-link" href="about.html">ABOUT</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#gallery">GALLERY</a>
@@ -38,56 +39,81 @@
             </div>
           </nav>
         <!-------------------------HEADER-->
-        <div class="jumbotron">
-            <h1 class="display-4">NEMESIS by Jyrald</h1>
-            <p class="lead">
-                flex that natural glow
-            </p>
-            <hr class="my-4">
-            <p> subscribe for more exclusive contents</p>
+        <div class="jumbotron bg-transparent jumbotron-head">
+            <div class="nemesis">
+              <h1 class="display-4">NEMESIS</h1>
+            </div>
+            <h2 class="jyrald">BY JYRALD</h2>
+            <div class="slogan">
+              <p class="lead"><b><br>flex that natural glow</b> </p>
+            </div>
+            <br><br><br>
+            <p class="lead" id="subcribe" ><br><br>shop for the newest products</p>
             <div class="btn-group-toggle" data-toggle="buttons">
-                <label class="btn btn-secondary active">
-                    <input type="checkbox" checked> SUBSCRIBE
-                </label>
+              <label class="btn btn-secondary active">
+                  <input type="checkbox" checked> SHOP NOW
+              </label>
             </div>
         </div>
+        
          <!-------------------------GRID LAYOUT-->
+         <section id="goals">
          <div class="container">
-             <div class="row">
-                 <div class="col-md-4">inclusion is our mian goal</div>
-                 <div class="col-md-4">serving for the public</div>
-                 <div class="col-md-4">the affordable route</div>
-             </div>
-             <div class="row">
-                <div class="col-md-12 container-fluid text-center text-md-left">
-                    <h1 class="display-4">THE BRAND NEW SKIN-LIKE FOUNDATION</h1>
-                    <p class="lead">
-                        all-new lightweight formula that gives a natural finish
-                    </p>
+             <div class="row text-center">
+                <div class="col-md-4 goals">
+                <img src="img/fentybeauty_20200304_124514_0.jpg" class="goals-img">
+                  <h4>INCLUSION IS THE GOAL</h4>
+                  <p>In the world of diversity, it's useless without inclusivity</p>
+                </div>
+                <div class="col-md-4 goals">
+                <img src="img/florencebymills_20200304_123235_0.jpg" class="goals-img">
+                  <h4>SERVING FOR THE PUBLIC</h4>
+                  <p>We are a brand who listens to the consumers.</p>
+                </div>
+                <div class="col-md-4 goals">
+                  <img src="img/comment belo.jpg" class="goals-img">
+                  <h4>THE AFFORDABLE ROUTE</h4>
+                  <p>We want you to enjoy things without sacrificing your schmoney.</p>
                 </div>
              </div>
+        </section>
+        <section class="product">       
+          <div class="jumbotron bg-transparent jumbotron-product">
+            <div class="foundation">
+              <h1 class="display-4">THE AIR FOUNDATION</h1>
+            </div>
+            <div class="foundation-line">
+              <p class="lead"><b>the new weightless foundation with full coverage. Only on Shopee.</b></p>
+            </div>
+          </div>
+        </section>
+             
         <!------------------------------FOOTER-->
-        <footer class="page-footer font-small gray pt-4">
-                <div class="container-fluid text-center text-md-left">
-                    <div class="row">
-                        <div class="col-md-6 mt-md-0 mt-3">
-                                  <h5 class="text-uppercase font-weight-bold">WE ARE HAPPY TO SERVE YOU</h5>
-                                  <p>To get more out of Nemesis products, visit our social networking sites,
-                                      our Youtube channel and our Shopee store. (Lazada will be available soon.)
-                                  </p>
+        <footer class="page-footer font-small gray darken-3">
+                <div class="container">
+                    <div class="row ">
+                        <div class="col-md-12 py-5 footer-box">
+                          <div class="mb-5 flex-center">
+                            <p class="disclaimer"><b>DISCLAIMER</b><br> the pictures of the page belongs to their rightful owners. for educational purposes only.</p>
+                            <h5 class="text-uppercase font-weight-bold text-center"><br><br>FOLLOW US</h5>
+                            <a class="fb-ic">
+                              <img src="img/facebook.png" class="icons-img">
+                            </a>
+                            <a class="ig-ic">
+                              <img src="img/instagram.png" class="icons-img">
+                            </a>
+                            <a class="yt-ic">
+                              <img src="img/youtube.png" class="icons-img">
+                            </a>
+                            <a class="gh-ic">
+                              <img src="img/github.png" class="icons-img">
+                            </a>
                         </div>
                     </div>
                 </div>
-        </footer>
-        
-              
-
-
-
-       
+          </footer>
          </div>
-
-    </div>
+  </div>
         
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>

@@ -1,51 +1,125 @@
-html,
-body {
+@font-face{
+    src: url('fonts/FELIXTI.TTF');
+    font-family: felix;
+}
+
+*{
     padding: 0;
     margin: 0;
-    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+}
+body{
+    font-family: sans-serif;
 }
 
-.container{
-    width: 80%;
-    margin: auto;a
-    overflow: hidden;
+/*-------------------------------HEAD----------------------------------*/
+.nemesis{
+    text-shadow: 2px 2px black;
+    color: #fdefb2;
+    font-family: felix;
 }
-
-header{
-    padding-top: 25px;
-    min-height:50px;
-    border-bottom: gray 1px solid;
-}
-
-header a {
+.slogan{
+    text-shadow: 1px 1px white;
     color: black;
-    text-decoration: none;
-    font-size: 18px;
+    font-style: bold;
+    font-style: italic;
+    font-family: felix;
+}
+.jyrald{
+    font: 120px;
+    color:black;
+    font-family: felix;
+    font-style: italic;
 }
 
-ul{
-    margin: 0;
-    padding:0;
+.nemesis p{
+    color: black;
 }
 
-header li{
-    float:left;
-    display: inline;
-    padding: 7px 7px 7px 7px;
+.jumbotron-head{
+    background: url('img/florencebymills.jpg') no-repeat;
+    text-align: center;
+}
+.subscribe{
+    font-style: bold;
 }
 
-
-header nav{
-    float: right;
+.bottom-img{
+    width: 100%;
 }
-.logo img{
-    padding-bottom: 10px;
-    float: left;
+
+/*-------------------------------------- GOALS ------------------------------------------------*/
+#goals{
+    padding: 75px 0; 
+}
+.goals-img{
+    border-radius: 75px;
     max-width: 150px;
+    max-height: 150px;
+    margin-top: 20px;
 }
- 
-.active {
-    font-size: 20px;
-    color: #b3a35f;
-    font-weight: bold;
+.goals{
+    padding: 20px;
+}
+
+.goals h4{
+    padding: 5px;
+    margin-top: 25px;  
+}
+.goals p{
+    font-style: italic;
+    padding: 5px;
+    margin-top:10px;  
+}
+
+/*-------------------------------------Product---------------------------------------------*/
+.jumbotron-product{
+    background: url('img/fentybeauty_20200304_123700_0.jpg') no-repeat;
+    text-align: center;
+}
+.foundation{
+    color: #9e9054;
+    font-family: felix;
+}
+.foundation-line{
+    font-style: bold;
+}
+
+/*------------------------------------Footer-------------------------------------------------*/
+.footer-box{
+    text-align: center;
+    padding: 20px;
+}
+
+.icons-img{
+    max-width: 50px;
+    max-height: 50px;
+    margin: 10px 20px 10px 20px
+}
+
+
+/**********************************************************************ABOUT.HTML*************************************************/
+.about{
+    margin: 5 10% 5% 10%;
+}
+.aboutus{
+    margin: 3% 0% 0 0%;
+}
+.aboutus h1{
+    text-align: center;
+    font-family: felix;
+    color: #9e9054;
+    text-shadow: 1px 1px black;
+}
+.aboutus p{
+    padding: 5% 5% 0% 9%;
+}
+.aboutpic img{
+    border-radius: 30px;
+    margin: 5% 0% 0 5%;
+    width: 85%;
+}
+
+#font-nemesis{
+    color: #9e9054;
+    font-family: felix;
 }
