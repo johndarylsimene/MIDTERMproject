@@ -71,16 +71,17 @@ body{
     margin-top:10px;  
 }
 
-/*-------------------------------------Product---------------------------------------------*/
+/*-------------------------------------PRODUCT---------------------------------------------*/
 .jumbotron-product{
-    background: url('img/fentybeauty_20200304_123700_0.jpg') no-repeat;
+    background: url('img/fentybeauty_20200304_123700_0.jpg');
     text-align: center;
 }
 .foundation{
     color: #9e9054;
     font-family: felix;
 }
-.foundation-line{
+.foundation-line p{
+    text-shadow: 1px 1px white;
     font-style: bold;
 }
 
@@ -145,15 +146,85 @@ body{
     margin-right: 5%;}
 /**********************************************GALLERY************************************************************************/
 
-.carousel-inner h5{
-    color: white;
-    text-shadow: 1px 2px black;
+.carousel-inner h2{
+    color: black;
+    text-shadow: 1px 1px white;
     font-family: felix;
 }
 .carousel-inner p{
     text-shadow: 1px 2px black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+#myCarousel{
+    margin: auto;
+    width: 95%;
+}
+
 
 /*********************************************PORTFOLIO**********************************************************************/
+.journey{
+    margin-top: 2%;
+    text-align: center;
+    font-family: felix;
+    color: #9e9054;
+    text-shadow: 1px 1px black;
+}
+.launch{
+    width: 100%;
+    height: auto;
+    margin-top: 2%;
+}
+.port-img{
+    width: 100%;
+    height: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.launch-2{
+    margin: auto;
+}
+.launch-2 h4{
+    text-align: center;
+    font-family: felix;
+    color: #9e9054;
+    text-shadow: 1px 1px black;
+}
+#launch{
+    margin-bottom: 5%;
+    box-shadow: 0 5px 10px #efefef
+}
+.shades{
+    margin: auto;
+}
+.shades h4{
+    margin-top: 2%;
+    text-align: center;
+    font-family: felix;
+    color: #9e9054;
+    text-shadow: 1px 1px black;
+}
+#shades{
+    margin-bottom: 5%;
+    box-shadow: 0 5px 10px #efefef
+}
 
+.influencer{
+    margin: auto;
+}
+.influencer h4{
+    margin-top: 2%;
+    text-align: center;
+    font-family: felix;
+    color: #9e9054;
+    text-shadow: 1px 1px black;
+}
+#influencer{
+    margin-bottom: 5%;
+    box-shadow: 0 5px 10px #efefef
+}
+.inf-img{
+    width: 100%;
+    height: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
