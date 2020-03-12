@@ -115,7 +115,7 @@ body{
 }
 .aboutpic img{
     border-radius: 30px;
-    margin: 5% 0% 0 5%;
+    margin: 15% 0% 0 5%;
     width: 85%;
 }
 
@@ -123,3 +123,37 @@ body{
     color: #9e9054;
     font-family: felix;
 }
+
+/*************************************************CONTACT********************************************************************/
+
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;}
+.card h1{
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: felix;
+}
+.title {
+    color: grey;
+    font-size: 18px;}
+.card p{
+    margin-left: 5%;
+    margin-right: 5%;}
+/**********************************************GALLERY************************************************************************/
+
+.carousel-inner h5{
+    color: white;
+    text-shadow: 1px 2px black;
+    font-family: felix;
+}
+.carousel-inner p{
+    text-shadow: 1px 2px black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*********************************************PORTFOLIO**********************************************************************/
+
