@@ -30,14 +30,16 @@ body{
     font-family: felix;
     font-style: italic;
 }
-
-.nemesis p{
-    color: black;
-}
-
 .jumbotron-head{
     background: url('img/florencebymills.jpg') no-repeat;
     text-align: center;
+}
+.jumbotron-head p{
+    font-size: 25px;
+}
+.jumbotron-head a{
+    font-family: felix;
+}
 }
 .subscribe{
     font-style: bold;
@@ -125,25 +127,67 @@ body{
     font-family: felix;
 }
 
-/*************************************************CONTACT********************************************************************/
-
+/*************************************************CONTACTs********************************************************************/
 
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    max-width: 300px;
-    margin: auto;
+    margin-top: 3%;
+    max-width: 200px;
+    margin-left: 10%;
     text-align: center;}
 .card h1{
+    font-size: 25px;
+    margin-top: 2%;
     margin-left: 5%;
     margin-right: 5%;
-    font-family: felix;
+    font-family: felix, sans-serif;
 }
-.title {
+.course-section {
     color: grey;
-    font-size: 18px;}
+    font-size: 20px;}
 .card p{
     margin-left: 5%;
     margin-right: 5%;}
+.contact .container{
+    margin: auto;
+    display: flex;
+}
+.contact-heading{
+    margin: 5% 0% 0 3%;
+}
+.title h1{
+    font-family: felix;
+    color: #9e9054;
+    text-shadow: 1px 1px black;
+    margin-left: 10% ;
+}
+.title h6{
+    font-family: felix;
+    margin-left: 10% ;
+    font-weight: bold;
+}
+form{
+    width: 70%;
+    margin-left: 10% ;
+}
+form label{
+    font-size: 100%;
+    font-family: felix;
+}
+
+input{
+    border: 1px solid grey;
+    width: 100%;
+    padding: 5px;
+    outline-color: #c99027;
+}
+
+.button{
+    margin-top: 27px;
+    font-family: felix;
+    width: 100%
+
+}
 /**********************************************GALLERY************************************************************************/
 
 .carousel-inner h2{
@@ -156,75 +200,69 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 #myCarousel{
-    margin: auto;
+    margin:auto;
     width: 95%;
 }
+.face{
+    padding-top: 20px;
+    margin-top: 50px;
+    font-size: 200%;
+    text-align: center;
+    font-family: felix;
+    color: #9e9054;
+    text-shadow: 1px 1px black;
+    border-top: 2px solid rgba(0, 0, 0, 0.2);
+}
+
+.the-faces{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+.image img{
+    margin-top: 25px;
+    max-width: 100%;
+}
+.pictures{
+    margin: 5%;
+}
+
 
 
 /*********************************************PORTFOLIO**********************************************************************/
+.history{
+    margin-top: 2%;
+}
 .journey{
     margin-top: 2%;
+    font-size: 200%;
     text-align: center;
     font-family: felix;
     color: #9e9054;
     text-shadow: 1px 1px black;
 }
-.launch{
+.box{
     width: 100%;
     height: auto;
-    margin-top: 2%;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
 }
-.port-img{
-    width: 100%;
-    height: auto;
+.box .container{
     margin-top: 5%;
     margin-bottom: 5%;
 }
-.launch-2{
-    margin: auto;
-}
-.launch-2 h4{
-    text-align: center;
-    font-family: felix;
-    color: #9e9054;
-    text-shadow: 1px 1px black;
-}
-#launch{
-    margin-bottom: 5%;
-    box-shadow: 0 5px 10px #efefef
-}
-.shades{
-    margin: auto;
-}
-.shades h4{
-    margin-top: 2%;
-    text-align: center;
-    font-family: felix;
-    color: #9e9054;
-    text-shadow: 1px 1px black;
-}
-#shades{
-    margin-bottom: 5%;
-    box-shadow: 0 5px 10px #efefef
-}
-
-.influencer{
-    margin: auto;
-}
-.influencer h4{
-    margin-top: 2%;
-    text-align: center;
-    font-family: felix;
-    color: #9e9054;
-    text-shadow: 1px 1px black;
-}
-#influencer{
-    margin-bottom: 5%;
-    box-shadow: 0 5px 10px #efefef
-}
-.inf-img{
-    width: 100%;
+.box-img img{
+    margin:auto;
+    max-width: 100%;
     height: auto;
-    margin-top: 5%;
-    margin-bottom: 5%;
+}
+.box-txt{
+    margin: auto;
+}
+.box-txt h4{
+    margin-top: 2%;
+    text-align: center;
+    font-family: felix;
+    color: #9e9054;
+    text-shadow: 1px 1px black;
 }
